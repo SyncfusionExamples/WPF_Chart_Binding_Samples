@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_Chart_Bind_JSON_Data.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Chart="http://schemas.syncfusion.com/wpf"
+        xmlns:local="clr-namespace:WPF_Chart_Bind_JSON_Data"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.DataContext>
+            <local:ViewModel/>
+        </Grid.DataContext>
+        <Chart:SfChart>
+            <Chart:SfChart.Header>
+                <TextBlock Text="Oil consumption report for the year 2017" FontWeight="Bold"
+                           FontSize="20"/>
+            </Chart:SfChart.Header>
+            <Chart:SfChart.PrimaryAxis>
+                <Chart:DateTimeAxis Header="Oil used per month" LabelFormat="MMM"/>
+            </Chart:SfChart.PrimaryAxis>
+            <Chart:SfChart.SecondaryAxis>
+                <Chart:NumericalAxis Header="Capacity used(in liters)"/>
+            </Chart:SfChart.SecondaryAxis>
+            <Chart:ColumnSeries XBindingPath="Date" YBindingPath="CapacityUsed"
+                                ItemsSource="{Binding Items}"/>
+        </Chart:SfChart>
+    </Grid>
+</Window>

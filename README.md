@@ -1,1 +1,3 @@
-# WPF_Chart_Binding_Samples
+# WPF Chart Binding Samples
+
+The binding of varies ItemsSource types to WPF Charts is covered in this section.

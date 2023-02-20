@@ -1,0 +1,41 @@
+﻿<Window x:Class="WPF_Chart_Bind_IEnumerable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Chart="http://schemas.syncfusion.com/wpf"
+        xmlns:local="clr-namespace:WPF_Chart_Bind_IEnumerable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.DataContext>
+            <local:PatientViewModel/>
+        </Grid.DataContext>
+        <Chart:SfChart x:Name="AxisChart" Margin="10"
+                       Header="Height report of the patients">
+
+            <Chart:SfChart.PrimaryAxis>
+                <Chart:CategoryAxis
+                    x:Name="PrimaryAxis"
+                    Header="Patients name"
+                    ShowGridLines="False">
+                </Chart:CategoryAxis>
+            </Chart:SfChart.PrimaryAxis>
+
+            <Chart:SfChart.SecondaryAxis>
+                <Chart:NumericalAxis Minimum="150"
+                                     Header="Height in centimeters">
+                </Chart:NumericalAxis>
+            </Chart:SfChart.SecondaryAxis>
+
+            <Chart:ColumnSeries
+                x:Name="Series"
+                EnableAnimation="True"
+                ItemsSource="{Binding PatientData}"
+                XBindingPath="Name"
+                YBindingPath="Height" 
+                Palette="Metro"/>
+
+        </Chart:SfChart>
+    </Grid>
+</Window>

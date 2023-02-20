@@ -1,0 +1,86 @@
+[
+  {
+    "Date": "2017-01-01T00:00:00",
+    "CapacityUsed": 33.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-02-05T00:00:00",
+    "CapacityUsed": 53.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-03-05T00:00:00",
+    "CapacityUsed": 43.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-04-01T00:00:00",
+    "CapacityUsed": 33.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-05-05T00:00:00",
+    "CapacityUsed": 53.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-06-05T00:00:00",
+    "CapacityUsed": 43.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-07-01T00:00:00",
+    "CapacityUsed": 33.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-08-05T00:00:00",
+    "CapacityUsed": 53.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-09-05T00:00:00",
+    "CapacityUsed": 43.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-10-01T00:00:00",
+    "CapacityUsed": 33.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-11-05T00:00:00",
+    "CapacityUsed": 53.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  },
+  {
+    "Date": "2017-12-05T00:00:00",
+    "CapacityUsed": 43.000,
+    "CapacityAvailable": 60.000,
+    "OverCapacity": 0.0,
+    "TotalHours": 60.000
+  }
+]
