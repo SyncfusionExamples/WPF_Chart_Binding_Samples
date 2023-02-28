@@ -15,7 +15,7 @@
             x:Name="BarChart"
             Margin="10"
             Palette="Elite"
-            Header="Sales and target analysis for the year 2018">
+            Header="Sales target analysis for 2018">
 
             <Chart:SfChart.Legend>
                 <Chart:ChartLegend
@@ -31,7 +31,7 @@
 
             <Chart:SfChart.SecondaryAxis>
                 <Chart:NumericalAxis
-                    Header="Percentage"
+                    Header="Hundred Thousand USD"
                     Interval="10"/>
             </Chart:SfChart.SecondaryAxis>
 

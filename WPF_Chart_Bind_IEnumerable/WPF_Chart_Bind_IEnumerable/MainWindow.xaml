@@ -12,12 +12,12 @@
             <local:PatientViewModel/>
         </Grid.DataContext>
         <Chart:SfChart x:Name="AxisChart" Margin="10"
-                       Header="Height report of the patients">
+                       Header="Patient heights">
 
             <Chart:SfChart.PrimaryAxis>
                 <Chart:CategoryAxis
                     x:Name="PrimaryAxis"
-                    Header="Patients name"
+                    Header="Patient name"
                     ShowGridLines="False">
                 </Chart:CategoryAxis>
             </Chart:SfChart.PrimaryAxis>

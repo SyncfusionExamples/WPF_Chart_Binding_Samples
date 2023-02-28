@@ -14,7 +14,7 @@
         <Chart:SfChart
             x:Name="scatterChart"
             Margin="10"
-            Header="Sales Prediction of Products">
+            Header="Product Sales Prediction">
 
             <Chart:SfChart.Legend>
                 <Chart:ChartLegend DockPosition="Bottom" />
@@ -25,7 +25,7 @@
                     Interval="1"
                     IntervalType="Months"
                     LabelExtent="30"
-                    LabelFormat="MMM/yyyy"
+                    LabelFormat="MMM yyyy"
                     Maximum="07/01/2015"
                     Minimum="01/01/2015"
                     Header="Month">
